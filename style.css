@@ -12,28 +12,31 @@
 * {
     
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #22212c;
+    
     color: var(--text-color);
 }
-main > div > img {
-    width: 100px;
-    height: 100px;
+body{
+    background-color: var(--body-bg-color);
 }
-
-.card-header {
-    position: relative;
-    left: 50%;
-    top: 80px;
+ main > header {
     background-color: var(--bg-cards);
-    width: 300px;
-    height: 200px;
-}
-.developer {
-    background-color: var(--bg-cards);
-    width: 100px;
-    height: 100px;
-}
-.card {
     
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+main > header > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+main > header > p {
+    background-color:var(--bg-cards);
 }
 
+main > aside {
+    background-color: antiquewhite;
+}
