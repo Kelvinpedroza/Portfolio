@@ -14,29 +14,53 @@
     font-family: 'Merriweather Sans', sans-serif;
     
     color: var(--text-color);
+    margin: 0;
+    padding: 0;
 }
-body{
+body {
     background-color: var(--body-bg-color);
 }
- main > header {
-    background-color: var(--bg-cards);
-    
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    padding: 25px;
-    border-radius: 20px;
-    text-align: center;
-}
-main > header > img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-main > header > p {
-    background-color:var(--bg-cards);
+.main {
+    display: flex;
+    justify-content: space-around;
 }
 
-main > aside {
-    background-color: antiquewhite;
+.user {
+    background-color: var(--bg-cards);
+    width: 200px;
+    height: 150px;
+    text-align:center;
+    padding-top: 10%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.329);
+
+}
+.user > img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    border: 3px solid rgb(6, 236, 6)
+
+}
+.social {
+    background-color:var(--bg-cards);
+    margin-top: 15%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+ul {
+    padding: 20px
+}
+ul > li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.master-div {
+    display: flex;
+    flex-direction: column;
+}
+.project {
+    display: flex;
+    flex-direction: column;
 }
