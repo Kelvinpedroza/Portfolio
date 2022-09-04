@@ -27,14 +27,14 @@ body {
 
 .user {
     background-color: var(--bg-cards);
-    width: 200px;
-    height: 150px;
-    text-align:center;
-    padding-top: 10%;
+    margin-top: 15%;
     border-radius:20px;
-    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.329);
-
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
 }
+
 .user > img {
     width: 100px;
     height: 100px;
@@ -42,25 +42,151 @@ body {
     border: 3px solid rgb(6, 236, 6)
 
 }
+
 .social {
     background-color:var(--bg-cards);
     margin-top: 15%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
-ul {
-    padding: 20px
+
+.tecnologia {
+    background-color: var(--bg-cards);
+    margin-top: 15%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    padding: 10px;
 }
+h4,h3 {
+    margin-left: 10px;
+}
+.tecnologia > ul > li > span {
+    background-color: var(--bg-techs);
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    
+}
+.expecience {
+    background-color: var(--bg-cards);
+    margin-top: 15%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+}
+.expecience-list {
+    list-style-type: square;
+    font-size: 18px;
+}
+.education {
+    background-color: var(--bg-cards);
+    margin-top: 15%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+      
+}
+.education-list {
+    font-size: 18px;
+    list-style-type: square;
+    
+}
+
+ul {
+    padding: 20px;
+    
+}
+.tecnologia-ul {
+    display: flex;
+    margin: 10px;
+}
+
 ul > li {
+    margin:5px;
     list-style-type: none;
     padding-top: 10px;
+    font-size: 13px;
 }
 
 .master-div {
     display: flex;
     flex-direction: column;
 }
+
 .project {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    
+}
+
+.myProject {
+    background-color: var(--bg-cards);
+    margin-top: 9.6%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 800px;
+    align-items: center;
+
+}
+.newProject {
+    background-color: var(--bg-cards);
+    display: flex;
+    flex-direction:column;
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px
+}
+.coment > p > span {
+    
+    
+    color: aliceblue;
+}
+
+.posts {
+    background-color: var(--bg-cards);
+    height:50px ;
+    padding:10px;
+    border-radius:20px;
+
+}
+.posts > h3 {
+    margin-top:10px
+}
+
+.postProject {
+    display: flex;
+    margin-left: 9%;
+}
+.newPost {
+    background-color: var(--bg-cards);
+    display: flex;
+    margin: 10px;
+    padding:10px;
+    border-radius:20px;
+}
+.newPost > img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    
+    
+
+}
+.post-Coment {
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+footer {
+    margin-top:20px ;
+
+    text-align: center;
+    background-color: black;
 }
