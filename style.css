@@ -19,6 +19,8 @@
 }
 body {
     background-color: var(--body-bg-color);
+    
+    
 }
 .main {
     display: flex;
@@ -27,7 +29,7 @@ body {
 
 .user {
     background-color: var(--bg-cards);
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
@@ -45,14 +47,14 @@ body {
 
 .social {
     background-color:var(--bg-cards);
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
 
 .tecnologia {
     background-color: var(--bg-cards);
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
@@ -69,7 +71,7 @@ h4,h3 {
 }
 .expecience {
     background-color: var(--bg-cards);
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
@@ -80,7 +82,7 @@ h4,h3 {
 }
 .education {
     background-color: var(--bg-cards);
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
@@ -115,20 +117,22 @@ ul > li {
 
 .project {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* modificado */  
     
 }
 
 .myProject {
     background-color: var(--bg-cards);
-    margin-top: 9.6%;
+    margin-top:3%;
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
     display: flex;
     justify-content: space-between;
     height: 50px;
-    width: 800px;
+    width: 70vw;
     align-items: center;
 
 }
@@ -136,12 +140,32 @@ ul > li {
     background-color: var(--bg-cards);
     display: flex;
     flex-direction:column;
-    height: 80px;
-    width: 300px;
+    height: 100px;
+    width: 70vw;
+    text-align: justify;
     padding: 10px;
     margin: 10px;
-    border-radius:10px
+    border-radius:10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
+.post{
+    width: 500px;
+     
+}
+.coment {
+    margin-top: 20px;
+    display: flex;
+}
+
+#star{
+    margin-left:20px;
+}
+#corrent{
+    margin-left: 20px;
+    width: 25%;
+}
+
+
 .coment > p > span {
     
     
@@ -150,38 +174,47 @@ ul > li {
 
 .posts {
     background-color: var(--bg-cards);
-    height:50px ;
-    padding:10px;
+    height:80px;
+
+    width: 70vw;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     border-radius:20px;
+    
 
 }
 .posts > h3 {
-    margin-top:10px
+    margin-top:20px
 }
 
 .postProject {
     display: flex;
-    margin-left: 9%;
+    width: 72vw;
+
 }
 .newPost {
     background-color: var(--bg-cards);
     display: flex;
+    width: 70vw;
+    height: 150px;
     margin: 10px;
     padding:10px;
-    border-radius:20px;
+    align-items: center;
+    border-radius:30px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
 .newPost > img {
     width: 100px;
     height: 100px;
     border-radius:50%;
-    
-    
+    margin-left: 10px;
 
 }
 .post-Coment {
-    padding-top: 10px;
-    padding-left: 20px;
+    margin-left: 20px;
     
+}
+.post-Coment p {
+    margin-left: 20px;
 }
 
 footer {
