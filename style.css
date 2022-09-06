@@ -120,12 +120,12 @@ ul > li {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; /* modificado */  
-    
+    margin-top: 1.6%;
 }
 
 .myProject {
     background-color: var(--bg-cards);
-    margin-top:3%;
+    
     border-radius:20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     padding: 10px;
@@ -164,6 +164,11 @@ ul > li {
     margin-left: 20px;
     width: 25%;
 }
+.coment > .Java {
+    justify-content:
+    
+}
+   
 
 
 .coment > p > span {
