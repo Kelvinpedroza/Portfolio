@@ -17,6 +17,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 body {
     background-color: var(--body-bg-color);
     
@@ -49,7 +52,21 @@ body {
     background-color:var(--bg-cards);
     margin-top: 10%;
     border-radius:20px;
+    
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+.listStyle {
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    margin-top: 5%;
+}
+.listStyle > li{
+    margin-left: 10px;
+}
+
+.listStyle > li > a:hover {
+    color:#837e9f1a;
 }
 
 .tecnologia {
@@ -131,7 +148,7 @@ ul > li {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 8vh;
     width: 70vw;
     align-items: center;
 
@@ -140,7 +157,7 @@ ul > li {
     background-color: var(--bg-cards);
     display: flex;
     flex-direction:column;
-    height: 100px;
+    height: 15vh;
     width: 70vw;
     text-align: justify;
     padding: 10px;
@@ -148,36 +165,42 @@ ul > li {
     border-radius:10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
 }
-.post{
-    width: 500px;
-     
+.svgFolder {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
 }
 .coment {
     margin-top: 20px;
     display: flex;
-}
 
-#star{
-    margin-left:20px;
 }
-#corrent{
-    margin-left: 20px;
-    width: 25%;
-}
- 
-
-
-.coment > p > span {
+.svgStar {
+    display: flex;
+    align-items: center;
     
-    
-    color: aliceblue;
 }
+.svgStar img{
+    padding-right: 10px;
+}
+.svgbranch {
+    display: flex;
+    align-items: center;
+    
+    padding-left: 10px;
+    
+}
+.svgbranch > p {
+    padding-left: 10px;
+}
+
+
 
 .posts {
     background-color: var(--bg-cards);
     height:80px;
-
-    width: 70vw;
+    height: 11vh;
+    width: 71vw;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
     border-radius:20px;
     
